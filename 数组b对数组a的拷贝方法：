@@ -1,0 +1,17 @@
+      方法1.数组遍历，push
+       b=new Array();
+       for(var i=0;i<a.length;i++){
+       	  b.push(a[i]);
+       }
+       console.log(b);
+       
+       
+       
+       方法2. concat
+       b=[].concat(a);
+       console.log(b);
+       
+       
+      方法3. slice
+       b=a.slice(0);
+       console.log(b);
